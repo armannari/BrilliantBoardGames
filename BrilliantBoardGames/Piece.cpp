@@ -14,7 +14,7 @@ Piece::Piece() {
 }
 
 // Initializes a new piece with a fixed position and type
-Piece::Piece( int row, int col, char type ) : row_(row), col_(col), type_(type) {
+Piece::Piece( int row, int col, char type ) : row_( row ), col_( col ), type_( type ) {
 }
 
 // returns the position of the piece
@@ -43,3 +43,6 @@ void Piece::set_pos( int dest_row, int dest_col ) {
     col_ = dest_col;
 }
 
+bool Piece::legal_move( int dest_row, int dest_col ) {
+    return true;
+}

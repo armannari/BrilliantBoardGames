@@ -21,13 +21,14 @@ public:
     void put_pieces_on_board( Board* board );
     void move_piece( int source_row, int source_col, int dest_row, int dest_col );
     int get_player_num();
+    std::vector<Piece*> pieces;
     
-    ~Player();
+    //~Player();
     
 private:
     int player_num_;
     int num_pieces_;
-    std::vector<Piece*> pieces;
+    
 };
 
 #endif /* Player_h */

@@ -37,7 +37,6 @@ void Board::place_piece( Piece* piece ) {
 
 // Moves a piece from the source point to the destination point
 void Board::move_piece( int source_row, int source_col, int dest_row, int dest_col ) {
-    std::cout << "Moving piece from (" << source_row << "," << source_col << ") to (" << dest_row << "," << dest_col << ")" << std::endl;
     
     board[index( get_num_rows() - dest_row, dest_col )] = board[index( get_num_rows() - source_row, source_col )];
     board[index( get_num_rows() - source_row, source_col )] = '.';
@@ -59,7 +58,12 @@ int Board::get_num_cols() const {
     return num_cols_;
 }
 
-
+bool Board::is_empty(int row, int col) {
+    if (board[index(row, col)] == '.') {
+        return true;
+    }
+    return false;
+}
 
 std::ostream& operator <<( std::ostream& os, const Board& rhs ) {
     

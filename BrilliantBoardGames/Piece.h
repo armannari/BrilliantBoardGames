@@ -22,8 +22,9 @@ public:
     int get_row( );
     int get_col( );
     void set_pos( int dest_row, int dest_col );
+    virtual bool legal_move( int dest_row, int dest_col );
     
-private:
+protected:
     int row_;
     int col_;
     char type_;

@@ -12,6 +12,9 @@
 		D8485B691EC3883B00888EB1 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8485B671EC3883B00888EB1 /* Board.cpp */; };
 		D8485B6C1EC3E07000888EB1 /* Piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8485B6A1EC3E07000888EB1 /* Piece.cpp */; };
 		D8485B6F1EC3EAF700888EB1 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8485B6D1EC3EAF700888EB1 /* Player.cpp */; };
+		D8691D2D1EC8B71A00314144 /* FoxAndHounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8691D2B1EC8B71A00314144 /* FoxAndHounds.cpp */; };
+		D8691D301EC8CC2500314144 /* Fox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8691D2E1EC8CC2500314144 /* Fox.cpp */; };
+		D8691D331EC8CDE900314144 /* Hound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8691D311EC8CDE900314144 /* Hound.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +40,12 @@
 		D8485B6B1EC3E07000888EB1 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
 		D8485B6D1EC3EAF700888EB1 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		D8485B6E1EC3EAF700888EB1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D8691D2B1EC8B71A00314144 /* FoxAndHounds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoxAndHounds.cpp; sourceTree = "<group>"; };
+		D8691D2C1EC8B71A00314144 /* FoxAndHounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoxAndHounds.h; sourceTree = "<group>"; };
+		D8691D2E1EC8CC2500314144 /* Fox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fox.cpp; sourceTree = "<group>"; };
+		D8691D2F1EC8CC2500314144 /* Fox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fox.h; sourceTree = "<group>"; };
+		D8691D311EC8CDE900314144 /* Hound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hound.cpp; sourceTree = "<group>"; };
+		D8691D321EC8CDE900314144 /* Hound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hound.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +81,14 @@
 				D8485B5D1EC3873B00888EB1 /* main.cpp */,
 				D8485B641EC3876800888EB1 /* Game.cpp */,
 				D8485B651EC3876800888EB1 /* Game.h */,
+				D8691D2B1EC8B71A00314144 /* FoxAndHounds.cpp */,
+				D8691D2C1EC8B71A00314144 /* FoxAndHounds.h */,
 				D8485B6A1EC3E07000888EB1 /* Piece.cpp */,
 				D8485B6B1EC3E07000888EB1 /* Piece.h */,
+				D8691D2E1EC8CC2500314144 /* Fox.cpp */,
+				D8691D2F1EC8CC2500314144 /* Fox.h */,
+				D8691D311EC8CDE900314144 /* Hound.cpp */,
+				D8691D321EC8CDE900314144 /* Hound.h */,
 				D8485B6D1EC3EAF700888EB1 /* Player.cpp */,
 				D8485B6E1EC3EAF700888EB1 /* Player.h */,
 				D8485B671EC3883B00888EB1 /* Board.cpp */,
@@ -139,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8691D331EC8CDE900314144 /* Hound.cpp in Sources */,
+				D8691D2D1EC8B71A00314144 /* FoxAndHounds.cpp in Sources */,
 				D8485B6C1EC3E07000888EB1 /* Piece.cpp in Sources */,
 				D8485B691EC3883B00888EB1 /* Board.cpp in Sources */,
 				D8485B5E1EC3873B00888EB1 /* main.cpp in Sources */,
+				D8691D301EC8CC2500314144 /* Fox.cpp in Sources */,
 				D8485B661EC3876800888EB1 /* Game.cpp in Sources */,
 				D8485B6F1EC3EAF700888EB1 /* Player.cpp in Sources */,
 			);
@@ -272,6 +290,7 @@
 				D8485B631EC3873B00888EB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -28,6 +28,7 @@ public:
     void place_piece (Piece* piece) ;
     void move_piece( int source_row, int source_col, int dest_row, int dest_col );
     void retract_move();
+    bool is_empty(int row, int col);
     
     ~Board();
     

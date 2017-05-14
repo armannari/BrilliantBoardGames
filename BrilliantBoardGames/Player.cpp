@@ -13,11 +13,11 @@ Player::Player( int player_num, int num_pieces ) : player_num_( player_num ), nu
     
 }
 
-Player::~Player() {
+/*Player::~Player() {
     for (int i = 0; i < pieces.size(); i++) {
         delete pieces[i];
     }
-}
+}*/
 
 // Pushes a piece into a vector of all pieces this player owns
 void Player::fill_pieces(Piece* piece) {
